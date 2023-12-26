@@ -1,0 +1,60 @@
+/* customer-support-chat.css */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+  }
+  
+  .chat-container {
+    display: flex;
+  }
+  
+  /* Left Column */
+  .conversations-container {
+    width: 30%;
+    border-right: 1px solid #ccc;
+    padding: 10px;
+  }
+  
+  .conversations-container h2 {
+    margin-bottom: 10px;
+  }
+  
+  .conversation-list {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .conversation-item {
+    cursor: pointer;
+    margin-bottom: 5px;
+  }
+  
+  /* Right Column */
+  .chat-window {
+    flex: 1;
+    padding: 10px;
+  }
+  
+  .chat-header {
+    margin-bottom: 10px;
+  }
+  
+  .message-container {
+    border: 1px solid #ccc;
+    min-height: 300px;
+    padding: 10px;
+  }
+  
+  .message-item {
+    margin-bottom: 10px;
+  }
+  
+  .conversations-container {
+    overflow-y: auto;
+    max-height: 500px; /* Adjust the maximum height as needed */
+  }
+  
+  .message-container {
+    overflow-y: auto;
+    max-height: 300px; /* Adjust the maximum height as needed */
+  }
